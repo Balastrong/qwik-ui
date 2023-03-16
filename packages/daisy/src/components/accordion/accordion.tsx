@@ -20,6 +20,7 @@ export interface AccordionItemProps {
   onClick$?: PropFunction<() => void>;
 }
 
+// This is an accordion
 export const Accordion = component$((props: AccordionProps) => {
   const { class: classNames, ...rest } = props;
   return (
